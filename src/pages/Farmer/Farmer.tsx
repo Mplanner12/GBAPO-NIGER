@@ -145,7 +145,7 @@ export const Farmer = () => {
             Plot
           </h1>
           <iframe
-            src="/jante/index.html"
+            src={`/jante/index.html?farm_id=${userNIN}`}
             width="600"
             height="400"
             title="Example"
