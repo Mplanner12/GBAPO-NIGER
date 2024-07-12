@@ -233,7 +233,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                     Profile Settings
                   </NavLink>
                 </li> */}
-                <div className="mt-[22.5rem] md:mt-[9.5rem] lg:mt-[14.5rem]">
+                <div className="mt-[22.5rem] md:mt-[7.5rem] lg:mt-[16.5rem]">
                   <li
                     className="mb-[0.85rem]"
                     onClick={() => {
