@@ -7,6 +7,12 @@
 
 /* third-party libraries CSS */
 
+/* @media (width <= 1000px) {
+  #nav {
+    margin-top: -8rem;
+  }
+} */
+
 .tableCheckbox:checked ~ div span {
   @apply opacity-100;
 }
