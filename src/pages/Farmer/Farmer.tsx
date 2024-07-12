@@ -120,12 +120,12 @@ export const Farmer = () => {
                 {nin}
               </dd>
             </div>
-            <div className="py-3 border-b-2 border-gray-200 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+            {/* <div className="py-3 border-b-2 border-gray-200 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
               <dt className="text-sm font-semibold text-black">BVN</dt>
               <dd className="mt-1 text-sm text-black sm:mt-0 sm:col-span-2">
                 {bvn}
               </dd>
-            </div>
+            </div> */}
             {/* <div className="py-3 border-b-2 border-gray-200 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
               <dt className="text-sm font-semibold text-black">MAPPED</dt>
               <dd className="mt-1 text-sm text-black sm:mt-0 sm:col-span-2">

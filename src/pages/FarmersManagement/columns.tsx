@@ -23,9 +23,9 @@ import { MdDeleteForever } from 'react-icons/md';
 // This type is used to define the shape of our data.
 // You can use a Zod schema here if you want.
 export type UsersDataType = {
-  firstname: string;
-  middlename: string;
-  lastname: string;
+  name: string;
+  // middlename: string;
+  // lastname: string;
   phone: number;
   mapped: boolean;
   // email: string;
@@ -46,8 +46,8 @@ export type UsersDataType = {
 
 export const columns: ColumnDef<UsersDataType>[] = [
   {
-    accessorKey: 'firstname',
-    header: 'FirstName',
+    accessorKey: 'name',
+    header: 'Name',
   },
   // {
   //   accessorKey: 'email',
@@ -63,14 +63,14 @@ export const columns: ColumnDef<UsersDataType>[] = [
   //     );
   //   },
   // },
-  {
-    accessorKey: 'middlename',
-    header: 'MiddleName',
-  },
-  {
-    accessorKey: 'lastname',
-    header: 'LastName',
-  },
+  // {
+  //   accessorKey: 'middlename',
+  //   header: 'MiddleName',
+  // },
+  // {
+  //   accessorKey: 'lastname',
+  //   header: 'LastName',
+  // },
   {
     accessorKey: 'clusterHead',
     header: 'Cluster Head',
@@ -79,10 +79,10 @@ export const columns: ColumnDef<UsersDataType>[] = [
     accessorKey: 'mapped',
     header: 'Mapped',
   },
-  {
-    accessorKey: 'bvn',
-    header: 'BVN',
-  },
+  // {
+  //   accessorKey: 'bvn',
+  //   header: 'BVN',
+  // },
   {
     accessorKey: 'nin',
     header: 'NIN',
@@ -102,7 +102,7 @@ export const columns: ColumnDef<UsersDataType>[] = [
       const userNIN = userData.nin;
       console.log(userNIN);
       const navigate = useNavigate();
-      const { deleteUser } = useAuth();
+      // const { deleteUser } = useAuth();
 
       // function handleDeleteUser() {
       //   deleteUser({ id: userNIN });
